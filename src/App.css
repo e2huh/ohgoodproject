@@ -1,0 +1,116 @@
+.title {
+  color : #58ba9e;
+  font-size : 40px;
+  font-weight: bolder;
+  margin : 10px;
+}
+.text1{
+  font-weight: bold;
+  font-size : 25px;
+  margin : 15px;
+}
+.text2{
+  font-size : 15px;
+  margin : 10px;
+}
+.box{
+  margin : 10px;
+}
+#question{
+  border-radius : 10px;
+  border: 2px solid #58ba9e;;
+  width : 500px;
+  height : 65px;
+  font-size : 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin : 10px 0px 0px 10px;
+  resize: none;
+  padding : 10px 0px 0px 10px;
+}
+#gptbtn{
+  border-radius: 20px;
+  border-color: white;
+  height : 80px;
+  width : 80px;
+  background : url(gpt.png);
+  background-size: contain;
+}
+#answer{
+  border-radius : 10px;
+  border: 2px solid #58ba9e;;
+  width : 500px;
+  height : 150px;
+  font-size : 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin : 10px 0px 0px 10px;
+  resize: none;
+  padding : 10px 0px 0px 10px;
+  position: relative;
+}
+
+#langbtn{
+  color :white;
+  background-color: #58ba9e;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border-color: white;
+  height : 160px;
+  width : 70px;
+  position: absolute;
+  margin:10px 0px 0px 0px;
+}
+.result{
+  margin : 20px 0px 50px 20px;
+  padding: 10px;
+  background-color: #58ba9e;
+  border-radius: 10px;
+  height : 150px;
+  float: left;
+}
+.resultbox{
+  margin : 20px 0px 50px 0px;
+  border-radius : 10px;
+  border: 2px solid #58ba9e;;
+  width : 500px;
+  height : 155px;
+  font-size : 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  resize: none;
+  padding : 10px 0px 0px 10px;
+}
+.category{
+  font-weight: bold;
+  margin: 10px;
+  font-size: 15px;
+}
+.category1{
+  color : red;
+  float : left;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.category2{
+  color : orange;
+  float : right;
+  margin-left: 10px;
+}
+.category3{
+  color : green;
+  float : right;
+  margin-left: 10px;
+}
+.category4{
+  color : rgb(12, 124, 184);
+  float : right;
+  margin-left: 10px;
+}
+.category5{
+  color : rgb(154, 82, 232);
+  float : right;
+  margin-left: 10px;
+}
+.category6{
+  color : rgb(216, 21, 148);
+  float : right;
+}
