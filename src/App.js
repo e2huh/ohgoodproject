@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css'
 
-const openaiApiKey = process.env.REACT_APP_OPENAI_API_KEY;
+const apiKey = process.env.REACT_APP_OPENAI_API_KEY;
 
 function ChatGPTApp() {
   const [inputText, setInputText] = useState('');
@@ -16,7 +16,7 @@ function ChatGPTApp() {
       const apiUrl = "https://api.openai.com/v1/chat/completions";
       const headers = {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${openaiApiKey}`,
+        Authorization: `Bearer ${apiKey}`,
       };
       const requestData = {
         model: 'gpt-3.5-turbo',
@@ -29,7 +29,7 @@ function ChatGPTApp() {
           headers: headers,
           body: JSON.stringify(requestData),
       });
-      
+
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
