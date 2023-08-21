@@ -17,7 +17,7 @@ function ChatGPTApp() {
       const headers = {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${openaiApiKey}`,
-      }
+      };
       const requestData = {
         model: 'gpt-3.5-turbo',
         messages: [{ role: "user", content: inputText }],
@@ -29,6 +29,7 @@ function ChatGPTApp() {
           headers: headers,
           body: JSON.stringify(requestData),
       });
+      
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
