@@ -66,6 +66,7 @@
   background-color: #58ba9e;
   border-radius: 10px;
   height : 150px;
+  color : rgb(61, 61, 61);
   float: left;
 }
 .resultbox{
@@ -83,6 +84,7 @@
   font-weight: bold;
   margin: 10px;
   font-size: 15px;
+  color : rgb(61, 61, 61);
 }
 .category1{
   color : red;

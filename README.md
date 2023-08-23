@@ -1,14 +1,15 @@
-# Uni_sight Project with ChatGPT API
+# 언감생심 Project with ChatGPT
 
 1. 로컬 실행 방법
    
 ```
-git clone https://github.com/e2huh/uni_sight_gpt.git
+git clone https://github.com/e2huh/ohgoodproject.git
 
 npm install
 
 npm start
 ```
 
-2. 실행 URL
-- [Uni-sight : 언어 감수성 분석 모델 웹 구현 with ChatGPT API](https://e2huh.github.io/uni_sight_gpt/)
+### 데이터 라벨링 코드 파일 주소
+https://github.com/e2huh/ohgoodproject_labeling.git
+

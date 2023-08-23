@@ -45,7 +45,7 @@ function ChatGPTApp() {
   return (
     <div>
       <header className="title">
-        <header className="App-header">Unisight</header>
+        <header className="App-header">언감생心</header>
       </header>
       <hr/>
       <div className ="box">
@@ -67,7 +67,7 @@ function ChatGPTApp() {
         <button id="langbtn">분석</button>
       </div>
       <div className = "result">
-        <div className="text1">언어 감수성 분석 결과 : </div>
+        <div className="text1">언어 감수성 분석 결과 </div>
         <div className ="text2"> 유의하세요! 언어 감수성이 낮게 판단될 수 있는 단어입니다.</div>
         <div className="category">- 카테고리 - </div>
         <div className="category1">장애 및 병력
